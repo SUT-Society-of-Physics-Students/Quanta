@@ -1,67 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All News – Quanta</title>
-    <!-- Base site styling -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Additional styling for the news archive -->
-    <link rel="stylesheet" href="css/all-news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="./" />
+  <link rel="icon" href="images/quanta-logo.png" />
+  <title>All News | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Shared navigation bar -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="index.html#home">Home</a></li>
-            <li><a href="index.html#circles">Study Circles</a></li>
-            <li><a href="index.html#news">News</a></li>
-            <li><a href="index.html#gallery">Gallery</a></li>
-            <li><a href="index.html#people">People</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- Hero section for the news archive -->
-    <header class="hero hero-small">
-        <div class="hero-overlay">
-            <h1>News &amp; Announcements</h1>
-            <p>Stay up‑to‑date with the latest announcements and events at Quanta.</p>
-        </div>
-    </header>
-    <main>
-        <section class="section all-news-section">
-            <div class="container">
-                <div id="all-news-grid" class="news-grid"></div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <!-- Load news data and rendering logic -->
-    <script src="js/news-data.js"></script>
-    <script src="js/news.js"></script>
-    <script>
-    // Mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="src/main.tsx"></script>
 </body>
 </html>

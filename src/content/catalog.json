@@ -1,0 +1,129 @@
+{
+  "circles": [
+    {
+      "label": "Physics & Mathematics",
+      "items": [
+        {
+          "title": "Solid State Physics",
+          "href": "circles/Phys&Math/solid-state.html"
+        },
+        {
+          "title": "Electrodynamics in GR",
+          "href": "circles/Phys&Math/em-in-gr.html"
+        },
+        {
+          "title": "Introduction to Quantum Mechanics",
+          "href": "circles/Phys&Math/intro-quantum.html"
+        },
+        {
+          "title": "Quantum Theory",
+          "href": "circles/Phys&Math/quantum-theory.html"
+        },
+        {
+          "title": "Quantum Field Theory",
+          "href": "circles/Phys&Math/quantum-field-theory.html"
+        },
+        {
+          "title": "Stochastic Processes [Closed]",
+          "href": "circles/Phys&Math/stochastic-processes.html"
+        },
+        {
+          "title": "Computational Neuroscience [Closed]",
+          "href": "circles/Phys&Math/computational-neuroscience.html"
+        },
+        {
+          "title": "Kinetic Theory [Closed]",
+          "href": "circles/Phys&Math/kinetic-theory.html"
+        }
+      ]
+    },
+    {
+      "label": "Historical Papers",
+      "items": [
+        {
+          "title": "S. Chandrasekhar (1931) - The Maximum Mass of Ideal White Dwarfs",
+          "href": "circles/HistoricalPapers/chandrasekhar-1931.html"
+        },
+        {
+          "title": "J. S. Bell (1964) - On The Einstein Podolski Rosen Paradox",
+          "href": "circles/HistoricalPapers/bell-1964.html"
+        },
+        {
+          "title": "W. Heisenberg (1925) - Quantum-Theoretical Re-Interpretation of Kinematic and Mechanical Relations",
+          "href": "circles/HistoricalPapers/heisenberg-1925.html"
+        },
+        {
+          "title": "M. Born & L. Infeld (1934) - Foundations of the New Field Theory",
+          "href": "circles/HistoricalPapers/born-infeld-1934.html"
+        },
+        {
+          "title": "E. T. Jaynes (1971) – Violation of Boltzmann's H-Theorem in Real Gases",
+          "href": "circles/HistoricalPapers/jaynes-1971.html"
+        },
+        {
+          "title": "M. Planck (1900) – On the Theory of the Energy Distribution Law of the Normal Spectrum",
+          "href": "circles/HistoricalPapers/planck-1900.html"
+        }
+      ]
+    },
+    {
+      "label": "Special Topics",
+      "items": [
+        {
+          "title": "Koorosh Sadri - Quasi Inversion of Quantum & Classical Channels in Finite Dimensions",
+          "href": "circles/SpecialTopics/2-sadri.html"
+        },
+        {
+          "title": "Parsa Rangriz - Scaling Limits: Effective Dynamics Vs. Dynamical Mean-Field Theory",
+          "href": "circles/SpecialTopics/1-rangriz.html"
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "New Study Circles!",
+      "date": "15 Sep 2025",
+      "summary": "We're considering some new study circles as the new semester starts.",
+      "image": "images/quanta-logo.png",
+      "href": "news/02.html"
+    },
+    {
+      "title": "Weekly Schedule",
+      "date": "12 Sep 2025",
+      "summary": "The schedule of circles of this week",
+      "image": "images/22 - 28 Shahrivar 1404.png",
+      "href": "news/01.html"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "images/gallery/7.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/6.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/5.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/4.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/3.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/2.jpg",
+      "caption": "Quanta study circles · 2020"
+    },
+    {
+      "src": "images/gallery/1.jpg",
+      "caption": "Quanta study circles · 2020"
+    }
+  ]
+}

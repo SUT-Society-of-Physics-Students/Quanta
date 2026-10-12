@@ -1,94 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery – Quanta</title>
-    <!-- Base site styling -->
-    <!-- The core stylesheet is stored in the project root. It defines the
-         colour palette, navigation bar, hero section and other global styles. -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Additional styles specific to the gallery page -->
-    <!-- These styles only include customisations such as pagination and a
-         shorter hero section. They live in the css folder to keep the root
-         tidy. -->
-    <link rel="stylesheet" href="css/gallery.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="./" />
+  <link rel="icon" href="images/quanta-logo.png" />
+  <title>Gallery | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Shared navigation bar -->
-    <!-- Copy the same markup used on the other pages to ensure a consistent
-         experience across the site. -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="index.html#circles">Study Circles</a></li>
-            <li><a href="index.html#news">News</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="index.html#people">People</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <!-- Hero section for the gallery page -->
-    <header class="hero hero-small">
-        <div class="hero-overlay">
-            <h1>Gallery</h1>
-            <p>Explore snapshots from our study circles, events and the cosmos that inspires us.</p>
-        </div>
-    </header>
-    <main>
-        <section class="section gallery-page-section">
-            <div class="container">
-                <!-- The grid will be populated by JavaScript based on gallery-data.js -->
-                <div id="gallery-grid" class="gallery-grid"></div>
-                <!-- Pagination controls will appear here -->
-                <nav id="gallery-pagination" class="gallery-pagination"></nav>
-
-                <!-- Lightbox overlay for viewing images full-size -->
-                <!-- This single overlay is hidden by default. When an image is clicked,
-                     JavaScript will populate the full-size image and caption
-                     then toggle the `open` class to display it. -->
-                <div id="lightbox" class="lightbox-overlay" aria-hidden="true">
-                    <!-- Close button -->
-                    <span class="lightbox-close" aria-label="Close">&times;</span>
-                    <!-- Previous arrow -->
-                    <span class="lightbox-arrow prev" aria-label="Previous image">&#10094;</span>
-                    <!-- Next arrow -->
-                    <span class="lightbox-arrow next" aria-label="Next image">&#10095;</span>
-                    <!-- Full-size image -->
-                    <img id="lightbox-image" alt="Full-size gallery image">
-                    <!-- Caption text -->
-                    <p id="lightbox-caption" class="lightbox-caption"></p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <!-- Load gallery image data and rendering logic -->
-    <script src="js/gallery-data.js"></script>
-    <script src="js/gallery.js"></script>
-    <script>
-    // Mobile navigation toggle for small screens
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="src/main.tsx"></script>
 </body>
 </html>

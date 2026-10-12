@@ -1,90 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Papers</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="../../images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../../" />
+  <link rel="icon" href="../../images/quanta-logo.png" />
+  <title>Jaynes 1971 | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#circles">Study Circles</a></li>
-            <li><a href="../../index.html#news">News</a></li>
-            <li><a href="../../index.html#gallery">Gallery</a></li>
-            <li><a href="../../index.html#people">People</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">E. T. Jaynes (1971) - Violation of Boltzmann's H-Theorem in Real Gases</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">25 May, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->                  
-                        <h3>Abstract</h3>
-                        <p>This paper investigates the "H-Theorem-violating" states which increase their H function in order to obtain the equilibrium. The fact that H-Theorem is not equivalent to second law of thermodynamics was previously pointed out; but this paper investigates these states in such a way that one can "produce" those states in an actual lab.</p>
-                        <p>In this session, I first review the Kinetic Theory from classical mechanics to the Boltzmann's equation and H-Theorem and then, investigate this paper.</p>
-                        <div class="person-card" style="background-color: transparent; box-shadow: none;">
-                        <img src="../../images/people/SohrabMaleki.jpg" alt="Sohrab Maleki portrait">
-                        <h3>Lecturer: <a href="http://SohrabMaleki.ir" class="link">Sohrab Maleki</a></h3>
-                        </div>  
-                        <h3>Contents</h3>
-                            <a href="../../files/hp2-slides.pdf" class="btn btn-secondary">Slides</a>
-                            <a href="../../files/hp2-paper.pdf" class="btn btn-secondary">Paper</a>
-                        <br><br>
-                        <h3>Recording</h3>
-                            <p>unfortunately, this session is not recorded.</p>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCm1KYDxZU?si=4P3lzMZ2Uc8ftpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../../images/hp2-poster.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="../../src/main.tsx"></script>
 </body>
 </html>

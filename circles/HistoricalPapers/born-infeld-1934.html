@@ -1,88 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Papers</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="../../images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../../" />
+  <link rel="icon" href="../../images/quanta-logo.png" />
+  <title>Born Infeld 1934 | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#circles">Study Circles</a></li>
-            <li><a href="../../index.html#news">News</a></li>
-            <li><a href="../../index.html#gallery">Gallery</a></li>
-            <li><a href="../../index.html#people">People</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">M. Born & L. Infeld (1934) - Foundations of the New Field Theory</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">10 June, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->                  
-                        <h3>Abstract</h3>
-                        <p>Born–Infeld electrodynamics is a nonlinear modification of Maxwell’s theory of electromagnetism proposed in the 1930s by Max Born and Leopold Infeld. Its main motivation was to remove the singularities (infinite self-energy) of point charges, such as the infinite energy associated with the electric field of an electron in classical Maxwell theory. The Born–Infeld model introduces an upper bound on the electromagnetic field strength, leading to finite self-energy for point charges. This theory is consistent with special relativity and has reappeared in modern physics, particularly in string theory, where the Born–Infeld action naturally arises in the description of D-branes.</p>
-                        <p>In this session, we will review this paper by Max Born and Leopold Infeld, in which a model of nonlinear electrodynamics is introduced to resolve the singularity problem of point charges. This model, inspired by the idea of an upper limit on velocity in special relativity, imposes an upper bound on electric and magnetic fields. Next, we will examine several issues within the framework of this model, and finally, we will point out the effective role of this model in some aspects of string theory.</p>
-                        <div class="person-card" style="background-color: transparent; box-shadow: none;">
-                        <img src="../../images/people/AlirezaTalebi.jpg" alt="Alireza Talebi portrait">
-                        <h3>Lecturer: Alireza Talebi</h3>
-                        </div>  
-                        <h3>Contents</h3>
-                            <a href="../../files/hp3-paper.pdf" class="btn btn-secondary">Paper</a>
-                        <br><br>
-                        <h3>Recording</h3>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCm1KYDxZU?si=4P3lzMZ2Uc8ftpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../../images/hp3-poster.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="../../src/main.tsx"></script>
 </body>
 </html>

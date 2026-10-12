@@ -1,89 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Papers</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="../../images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../../" />
+  <link rel="icon" href="../../images/quanta-logo.png" />
+  <title>Chandrasekhar 1931 | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#circles">Study Circles</a></li>
-            <li><a href="../../index.html#news">News</a></li>
-            <li><a href="../../index.html#gallery">Gallery</a></li>
-            <li><a href="../../index.html#people">People</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">S. Chandrasekhar (1931) - The Maximum Mass of Ideal White Dwarfs</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">14 September, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->                  
-                        <h3>Abstract</h3>
-                        <p>Between 1931 and 1935, the Indian astrophysicist Subrahmanyan Chandrasekhar published a series of articles on the stability of stars, in which he introduced the concept of the Chandrasekhar limit for white dwarfs. His work transformed our understanding of stellar structure and opened new windows into the study of stellar evolution. He showed that when the mass of a white dwarf exceeds a certain limit (about 1.4 times the mass of the Sun), electron degeneracy pressure can no longer counterbalance gravity, and the star must collapse into a denser state, leading to the formation of neutron stars or black holes.</p>
-                        <p>In this session, we will become acquainted with the properties of white dwarfs and their evolutionary pathways. We will examine the governing theory of their structure from Chandrasekhar’s perspective, which reshaped our picture of stellar death and revealed why some stars cannot end their lives as white dwarfs. This breakthrough not only gave us a deeper understanding of compact stellar remnants but also explained the fates of massive stars and, eventually, the origins of some of the most extreme objects in the universe.</p>
-                        <p>For this pioneering work, Chandrasekhar was awarded the 1983 Nobel Prize in Physics. His studies provided a better understanding of white dwarfs and their ultimate fate, while also paving the way for our comprehension of neutron stars and black holes. In this session, we will also briefly discuss the discovery of pulsars by Jocelyn Bell in 1967, which confirmed the existence of neutron stars and opened a new era in high-energy astrophysics. By exploring how these stellar remnants are structured and how they evolve, we gain a clearer understanding of the processes that shape the life cycles of stars and, ultimately, the cosmos around us.</p>
-                        <div class="person-card" style="background-color: transparent; box-shadow: none;">
-                        <img src="../../images/people/BardiaAlian.jpg" alt="Mobin Naderi portrait">
-                        <h3>Lecturer: Bardia Alian</h3>
-                        </div>  
-                        <h3>Contents</h3>  
-                            <a href="../../files/hp6-paper.pdf" class="btn btn-secondary">Paper</a>
-                        <br><br>
-                        <h3>Recording</h3>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCm1KYDxZU?si=4P3lzMZ2Uc8ftpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../../images/hp6-poster.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="../../src/main.tsx"></script>
 </body>
 </html>

@@ -1,88 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Papers</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../../" />
+  <link rel="icon" href="../../images/quanta-logo.png" />
+  <title>2 Sadri | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#circles">Study Circles</a></li>
-            <li><a href="../../index.html#news">News</a></li>
-            <li><a href="../../index.html#gallery">Gallery</a></li>
-            <li><a href="../../index.html#people">People</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">Quasi Inversion of Quantum & Classical Channels in Finite Dimensions</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">10 August, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->                  
-                        <h3>Abstract</h3>
-                        <p>In closed quantum systems, the evolution of states under the Schrödinger equation is fully reversible — meaning one can return exactly to the past. However, if the system is open and interacts with its surroundings, then without complete control over the environment, exact reversal becomes impossible. How are these non-unitary evolutions, also known as “quantum channels,” described? If we cannot completely eliminate environmental noise, to what extent can we bring the system “close” to its initial state again? And more importantly, what answers does the classical version of these questions offer, and what similarities or differences emerge compared to the quantum case? In this week’s “Quanta,” I will present a brief overview of my and my colleagues’ efforts to find answers to these questions.</p>
-                        <div class="person-card" style="background-color: transparent; box-shadow: none;">
-                        <img src="../../images/people/KooroshSadri.jpg" alt="Koorosh Sadri portrait">
-                        <h3>Lecturer: <a href="http://KooroshSadri.github.io" class="link">Koorosh Sadri</a></h3>
-                        <p>Physics PhD Student @ Penn. State University</p>
-                        </div>  
-                        <h3>Contents</h3>
-                            <!-- <a href="../../files/hp2-slides.pdf" class="btn btn-secondary">Slides</a> -->
-                            <a href="../../files/st2-paper.pdf" class="btn btn-secondary" target="_blank">Paper</a>
-                        <br><br>
-                        <h3>Recording</h3>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCm1KYDxZU?si=4P3lzMZ2Uc8ftpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../../images/st2-poster.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="../../src/main.tsx"></script>
 </body>
 </html>

@@ -1,104 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historical Papers</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="../../images/quanta-logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../../" />
+  <link rel="icon" href="../../images/quanta-logo.png" />
+  <title>Heisenberg 1925 | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../../index.html">Home</a></li>
-            <li><a href="../../index.html#circles">Study Circles</a></li>
-            <li><a href="../../index.html#news">News</a></li>
-            <li><a href="../../index.html#gallery">Gallery</a></li>
-            <li><a href="../../index.html#people">People</a></li>
-            <li><a href="../../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">W. Heisenberg (1925) - Quantum-Theoretical Re-Interpretation of Kinematic and Mechanical Relations</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">29 July, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->                  
-                        <h3>Abstract</h3>
-                        <p>
-                            On July 29, 1925, the young Werner Heisenberg wrote a paper that marked the beginning of a great revolution in physics—an upheaval that set aside the classical concepts of mechanics and motion, and introduced a new world built on matrices, discontinuities, and strange yet precise ideas. 
-                            Heisenberg’s work, known today as the birth of <strong>matrix mechanics</strong>, was the first consistent formulation of quantum mechanics. Unlike earlier attempts, it abandoned direct reference to unobservable electron orbits and instead focused only on measurable quantities, such as spectral lines. 
-                            By representing physical observables as arrays of numbers (matrices) rather than simple numerical values, Heisenberg discovered the non-commutative structure of quantum theory, encapsulated later in the famous commutation relation 
-                            \( [x, p] = i\hbar \). 
-                            This marked a decisive shift from the smooth, deterministic picture of classical physics to a probabilistic framework that could accurately capture atomic phenomena.
-                        </p>
-                        <p>
-                            In this session, on the anniversary of the publication of this paper, we will turn our attention to that exact historical moment—a moment when Heisenberg replaced the comfortable mental images of classical mechanics with something that could not be visualized in the old way. 
-                            What emerged from his efforts was a new kind of mathematics: <strong>matrix mechanics</strong>, the earliest form of quantum mechanics, which was later completed and expanded by the works of Born and Jordan.
-                        </p>
-                        <div class="person-card" style="background-color: transparent; box-shadow: none;">
-                        <img src="../../images/people/SohrabMaleki.jpg" alt="Sohrab Maleki portrait">
-                        <h3>Lecturer: <a href="http://SohrabMaleki.ir" class="link">Sohrab Maleki</a></h3>
-                        </div>  
-                        <h3>Contents</h3>
-                            <a href="../../files/hp4-notes.pdf" class="btn btn-secondary">Notes</a>
-                            <a href="../../files/hp4-paper.pdf" class="btn btn-secondary">Original Paper (Ger)</a>
-                            <a href="../../files/hp4-paper(eng).pdf" class="btn btn-secondary">Original Paper (Eng)</a>
-                            <br><br>
-                            <a href="../../files/hp4-paper+.pdf" class="btn btn-secondary">Recommended Reading 1</a>
-                            <a href="../../files/hp4-paper++.pdf" class="btn btn-secondary">Recommended Reading 2</a>
-                        <br><br>
-                        <h3>Recording</h3>
-                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/XRCm1KYDxZU?si=4P3lzMZ2Uc8ftpUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../../images/hp4-poster.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+  <div id="root"></div>
+  <script type="module" src="../../src/main.tsx"></script>
 </body>
 </html>

@@ -1,85 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weekly Schedule | Quanta News</title>
-    <!-- Base stylesheet for overall site aesthetics -->
-    <link rel="stylesheet" href="../css/style.css">
-    <!-- Styles specific to news articles -->
-    <link rel="stylesheet" href="../css/news.css">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="quanta-root" content="../" />
+  <link rel="icon" href="../images/quanta-logo.png" />
+  <title>01 | Quanta — Sharif University of Technology</title>
 </head>
 <body>
-    <!-- Navigation bar (same structure as other pages) -->
-    <nav class="navbar">
-        <div class="logo">
-            <img src="../images/quanta-logo.png" alt="Quanta logo" class="logo-image">
-            <div class="logo-text-group">
-                <span class="logo-text">Quanta</span>
-                <span class="logo-subtext">Physics&nbsp;Department,&nbsp;Sharif University of Technology</span>
-            </div>
-        </div>
-        <div class="nav-toggle" id="navToggle">&#9776;</div>
-        <ul class="nav-links" id="navLinks">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../index.html#circles">Study Circles</a></li>
-            <li><a href="../index.html#news">News</a></li>
-            <li><a href="../index.html#gallery">Gallery</a></li>
-            <li><a href="../index.html#people">People</a></li>
-            <li><a href="../index.html#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <!-- Hero/header section for the article title and date -->
-        <section class="section news-hero-section">
-            <div class="container">
-                <!-- Replace the text below with your article title -->
-                <h1 class="news-title">Weekly Schedule: 13 - 19 Sep</h1>
-                <!-- Replace the date with the actual publication date -->
-                <span class="news-date">12 September, 2025</span>
-            </div>
-        </section>
-        <!-- Article content -->
-        <section class="section news-article-section">
-            <div class="container">
-                <div class="news-article">
-                    <div class="news-body">
-                        <!-- Begin your article body here -->
-                        <p>Here's the schedule of study circles of this week!</p>
-                        <h3>Schedules</h3>
-                        <ul>
-                            <li><a href="../circles/HistoricalPapers/chandrasekhar-1931.html" class="link"><b>Historical Papers: </b></a> Sunday, 18:00</li>
-                            <li><a href="../circles/Phys&Math/quantum-theory.html" class="link"><b>Quantum Theory: </b></a>Thursday & Saturday, 17:00</li>
-                            <li><a href="../circles/Phys&Math/stochastic-processes.html" class="link"><b>Stochastic Processes: </b></a>Monday & Friday, 17:00</li>
-                            <li><a href="../circles/Phys&Math/computational-neuroscience.html" class="link"><b>Computational Neuroscience: </b></a>Sunday & Tuesday, 16:00</li>
-                            <li><a href="../circles/Phys&Math/quantum-field-theory.html" class="link"><b>Quantum Field Theory: </b></a>Monday & Friday, 21:00</li>
-                        </ul>
-                        <p>You can be notified of your favorite study circles through E-mail by filling <a href="https://survey.porsline.ir/s/IIK9ZVyu" class="link">this form</a>.</p>
-                        <!-- End of article body -->
-                    </div>
-                    <div class="news-image">
-                        <!-- Replace the source with the main image for your news -->
-                        <img src="../images/ws1.jpg" alt="Main news image">
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <p>&copy;&nbsp;2025&nbsp;Quanta Study Circles. All rights reserved.</p>
-        </div>
-    </footer>
-    <script>
-    // Simple mobile navigation toggle
-    document.getElementById('navToggle').addEventListener('click', function() {
-        var nav = document.getElementById('navLinks');
-        nav.classList.toggle('open');
-    });
-    </script>
+  <div id="root"></div>
+  <script type="module" src="../src/main.tsx"></script>
 </body>
 </html>
